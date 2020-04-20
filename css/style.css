@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -19,11 +21,11 @@ div.logo{
     padding-left: 24px;
 }
 
-img{
+.logo img{
     width: 40px;
 }
 
-p{
+.logo p{
     font-size: 24px;
     margin:0px;
     padding-top: 16px;
@@ -47,6 +49,7 @@ li{
     padding-right: 16px
 }
 
+/*Start Here Sections*/
 .banner{
     background-color: lightgray;
     padding-top: 64px;
@@ -60,11 +63,80 @@ li{
 }
 
 div.button{
-    border: 1px solid red;
     width: 100%;
     text-align: center;
     padding: 70px 0px;
 }
+/*Main left*/
+#main{
+  background-color: white;
+  display: flex;  
+  padding: 32px 0px 0px 24px;
+  margin-bottom: 32px
+}
+
+.left{
+    display: inline-block;
+    width: 60%;
+}
+
+.left img{
+    width: 100%;
+}
+
+.left h1 {
+    padding-top: 32px;
+    margin: 0px;
+    padding-bottom: 24px;
+}
+
+.left h4{
+    margin: 0px;
+}
+
+.left h5{
+    padding-top: 24px;
+    margin: 0px;
+}
+
+/*Main right*/
+
+.right{
+    float: right;
+    display: inline-block; 
+    width: 40%; 
+    margin-left: 24px;
+    
+}
+
+div.feature, div.feature2, div.feature3{
+    display: inline-flex;
+    border: 1px solid lightgray;
+    width: 100%;
+}
+
+img.image{
+    padding: 0px 16px 16px 16px;
+    width: 35%;
+}
+
+img.image2, img.image3{
+    padding: 16px 16px 16px 16px;
+    width: 35%;
+}
+
+div.feature3{
+    background-color: lightgrey;
+}
+
+span{
+    color: cornflowerblue
+}
+
+.text h2, .text p {
+    margin-bottom: 8px;
+}
 
 
+/* Start Learning Section */
 
