@@ -67,6 +67,8 @@ div.button{
     text-align: center;
     padding: 70px 0px;
 }
+
+
 /*Main left*/
 #main{
   background-color: white;
@@ -139,4 +141,71 @@ span{
 
 
 /* Start Learning Section */
+
+
+div.learning{
+    margin: 0px;
+    background-color: lightgray;
+    padding: 32px 72px;
+}
+
+.learning h1{
+    text-align: center;
+    padding-bottom: 32px;
+    margin: 0px;
+}
+
+.learning div {
+    display: flex;
+    margin-right: 0px;
+}
+
+#course{
+    display: inline-flex;
+    margin-bottom: 32px;
+}
+
+#course img{
+    height: auto;
+    width: 100%;
+    align-content: center; 
+   
+}
+
+#course h2{
+    padding-left: 16px;
+    margin-bottom: 8px;
+}
+
+#course p{
+    padding-left: 16px;
+    margin: 0px;
+}
+
+#course h4{
+    padding-left: 16px;
+    margin-bottom: 8px;
+}
+
+div.course, .course div, div.course2, .course2 div, div.course3, .course3 div{
+    display: inline-block;
+    background-color: white;
+    padding-bottom: 12px;
+}
+
+div.course{
+    margin-right: 16px;
+}
+
+div.course2{
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+div.course3{
+    margin-left: 16px;
+}
+
+
+
 
