@@ -139,6 +139,10 @@ span{
     margin-bottom: 8px;
 }
 
+.text h2{
+    padding-top: 20px;
+}
+
 
 /* Start Learning Section */
 
@@ -206,6 +210,90 @@ div.course3{
     margin-left: 16px;
 }
 
+/*Thesis Exhibit*/
 
+#thesis{
+    background-color: white;
+    padding: 32px 0px 32px 24px;  
+}
 
+#thesis h1{
+    margin: 0px 0px 32px 0px;
+    text-align: center;
+}
 
+#thesis1{
+    display: inline-flex;
+}
+
+.tleft{
+    width: 60%;
+    margin: 0px;
+    display: inline-block;
+}
+
+video {
+    margin-bottom: 24px;
+}
+
+.video video{
+    width: 100%;
+}
+
+.video h2 {
+    margin: 0px;
+    padding-bottom: 8px;
+}
+
+.video h4{
+    margin: 0px;
+}
+
+.tright{
+    width: 40%;
+    margin: 0px 0px 0px 24px;
+    display: inline-block;
+}
+
+div.fisma{
+    background-color: lightgray;
+    display: inline-flex;
+    width: 100%;
+}
+
+div.nowandthen{
+    display: inline-flex;
+    width: 100%;
+}
+
+.fisma img{
+    padding-top: 16px;
+}
+
+/*Footer*/
+footer{
+    display: inline-flex;
+    padding:16px 24px 32px 16px;
+    width: 100%;
+    border-top:1px solid lightgray;
+}
+
+.footer p, .footer a{
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.footer a{
+    text-decoration: none;
+    padding-right: 8px;
+    color: black;   
+}
+div.copy{
+    width: 92%;
+
+}
+
+div.links{
+
+    display: inline-flex;
+}
